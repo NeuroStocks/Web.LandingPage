@@ -1,9 +1,10 @@
 <html>
 <head>
     <title>NeuroStocks</title>
+    <link rel="icon" href="icon.png" type="image/png">
 </head>
 <style>
-  
+
   body {
     margin: 0;
     padding: 0;
@@ -19,13 +20,18 @@
 
   .logo {
     aspect-ratio: 1/1;
-    max-width: 500px;
     width: 85vmin;
 
     background: url('logo.png') no-repeat;
     background-size: cover;
    
     border-radius: 2px;
+  }
+
+  @media (max-width: 768px) {
+    .logo {
+      max-width: 500px;
+    }
   }
 
 </style>
